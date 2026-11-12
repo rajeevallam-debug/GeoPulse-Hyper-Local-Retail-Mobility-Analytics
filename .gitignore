@@ -1,0 +1,67 @@
+# =====================================
+# GeoPulse - Git Ignore Configuration
+# =====================================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Power BI temporary and lock files
+~$*.pbix
+*.pbix.lock
+
+# Temporary exports
+*.temp.csv
+*.temp.xlsx
+
+# Generated cache files
+.cache/
+
+# Optional: Ignore large raw datasets if they should not be
+# published due to licensing, privacy or repository size.
+# data/raw/
+
+# Optional: Ignore generated processed datasets if they
+# can be reproduced from documented preprocessing scripts.
+# data/processed/
