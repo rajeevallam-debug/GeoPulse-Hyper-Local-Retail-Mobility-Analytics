@@ -1,0 +1,28 @@
+# GeoPulse - Python Dependencies
+
+# Data manipulation and numerical analysis
+pandas
+numpy
+
+# Data visualization
+matplotlib
+seaborn
+plotly
+powerBI
+
+# Statistical analysis
+scipy
+scikit-learn
+
+# Excel file processing
+openpyxl
+xlsxwriter
+
+# Geographic and spatial analysis
+geopandas
+folium
+shapely
+
+# Jupyter notebook environment
+jupyter
+ipykernel
